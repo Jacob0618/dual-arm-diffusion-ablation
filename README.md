@@ -2,8 +2,7 @@
 **Project:** Diffusion Policy Imitation Learning for Dual-Arm Manipulation
 **Role:** Full experiment pipeline, visualization, statistical analysis, final report + theoretical discussion
 
-**GitHub:** https://github.com/<YOUR_USERNAME>/dual-arm-diffusion-ablation
-*(replace `<YOUR_USERNAME>` after you push --- see `PUSH_TO_GITHUB.md`)*
+**GitHub:** https://github.com/Jacob0618/dual-arm-diffusion-ablation
 
 ---
 
