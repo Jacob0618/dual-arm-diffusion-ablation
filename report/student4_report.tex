@@ -14,32 +14,7 @@
 \usepackage{float}
 \usepackage{geometry}
 \usepackage{hyperref}
-\usepackage{listings}
 \geometry{a4paper, margin=1in}
-
-% Code listing style
-\definecolor{codegray}{rgb}{0.95,0.95,0.95}
-\definecolor{codecomment}{rgb}{0.0,0.5,0.0}
-\definecolor{codekeyword}{rgb}{0.0,0.0,0.7}
-\definecolor{codestring}{rgb}{0.6,0.0,0.6}
-\lstset{
-    backgroundcolor=\color{codegray},
-    basicstyle=\ttfamily\footnotesize,
-    breaklines=true,
-    captionpos=b,
-    commentstyle=\color{codecomment},
-    keywordstyle=\color{codekeyword}\bfseries,
-    stringstyle=\color{codestring},
-    language=Python,
-    numbers=left,
-    numberstyle=\tiny\color{gray},
-    numbersep=5pt,
-    showstringspaces=false,
-    frame=single,
-    tabsize=4,
-    xleftmargin=15pt,
-    framexleftmargin=10pt,
-}
 
 \title{Individual Report --- Student 4 \\
 \large Ablation Studies, Visualization, and Theoretical Analysis \\
@@ -442,8 +417,10 @@ contribution are released as a public GitHub repository:
 }}
 \end{center}
 
-The full ablation driver and visualization scripts are also reproduced
-verbatim in Appendix C and Appendix D below.
+The repository contains the complete ablation driver
+(\texttt{run\_ablation.py}), the visualization pipeline
+(\texttt{student4\_visualizations.py}), all 12 raw experiment
+outputs, and the LaTeX source of this report.
 
 % ============================================================
 % APPENDIX B: SUBMISSION LAYOUT
@@ -470,28 +447,5 @@ Student4_Submission/
   presentation.pptx
   presentation_v2.pptx
 \end{verbatim}
-
-% ============================================================
-% APPENDIX C: ABLATION DRIVER CODE
-% ============================================================
-\newpage
-\section*{Appendix C: Ablation Driver --- \texttt{run\_ablation.py}}
-
-This is the complete script I wrote to drive all 12 ablation
-experiments. The model architecture (\texttt{ConditionalUnet1D}) is
-imported unmodified from Student 3's codebase.
-
-\lstinputlisting[language=Python]{../ablation_code/run_ablation.py}
-
-% ============================================================
-% APPENDIX D: VISUALIZATION CODE
-% ============================================================
-\newpage
-\section*{Appendix D: Visualization Pipeline --- \texttt{student4\_visualizations.py}}
-
-This script renders all 12 figures used in the team report under a
-unified style configuration.
-
-\lstinputlisting[language=Python]{../visualization_code/student4_visualizations.py}
 
 \end{document}
