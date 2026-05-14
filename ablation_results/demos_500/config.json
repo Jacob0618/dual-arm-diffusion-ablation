@@ -1,0 +1,12 @@
+{
+  "exp_name": "demos_500",
+  "obs_horizon": 2,
+  "pred_horizon": 16,
+  "max_demos": 500,
+  "num_epochs": 100,
+  "batch_size": 256,
+  "dataset_size": 57075,
+  "param_count": 33804046,
+  "final_loss": 0.0022006778734539856,
+  "total_time_seconds": 578.5148537158966
+}

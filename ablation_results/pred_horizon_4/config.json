@@ -1,0 +1,12 @@
+{
+  "exp_name": "pred_horizon_4",
+  "obs_horizon": 2,
+  "pred_horizon": 4,
+  "max_demos": null,
+  "num_epochs": 100,
+  "batch_size": 256,
+  "dataset_size": 63075,
+  "param_count": 33804046,
+  "final_loss": 0.002069279499189845,
+  "total_time_seconds": 637.3093721866608
+}
